@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;connection&quot;:{&quot;connectorType&quot;:&quot;SNOWFLAKE&quot;,&quot;method&quot;:&quot;Ingress&quot;,&quot;credentials&quot;:[{&quot;paramName&quot;:&quot;user&quot;,&quot;value&quot;:&quot;SRV_DATACLOUD_SND&quot;},{&quot;paramName&quot;:&quot;authenticationOption&quot;,&quot;value&quot;:&quot;KeyPair&quot;}],&quot;lastModifiedDate&quot;:&quot;2025-10-10T20:08:28.000Z&quot;,&quot;editable&quot;:true,&quot;connectorLabel&quot;:&quot;Snowflake&quot;,&quot;deletable&quot;:true,&quot;label&quot;:&quot;snowflake_dev&quot;,&quot;params&quot;:[{&quot;paramName&quot;:&quot;accountUrl&quot;,&quot;value&quot;:&quot;https://vertexazeast.east-us-2.azure.snowflakecomputing.com&quot;},{&quot;paramName&quot;:&quot;region&quot;,&quot;value&quot;:&quot;east-us-2.azure&quot;},{&quot;paramName&quot;:&quot;warehouse&quot;,&quot;value&quot;:&quot;LAKE_WH&quot;},{&quot;paramName&quot;:&quot;unloadData&quot;,&quot;value&quot;:&quot;false&quot;}],&quot;url&quot;:&quot;/services/data/v65.0/ssot/connections/9cgO40000000j8PIAQ&quot;,&quot;createdDate&quot;:&quot;2025-10-09T21:12:02.000Z&quot;,&quot;name&quot;:&quot;sm_snowflake_test&quot;,&quot;namespace&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;/cdp/images/connectors/SNOWFLAKE.svg&quot;,&quot;id&quot;:&quot;9cgO40000000j8PIAQ&quot;,&quot;syncStatus&quot;:&quot;None&quot;,&quot;status&quot;:&quot;Active&quot;}}</entityPayload>
+    <masterLabel>snowflake_dev</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>sm_snowflake_test</sourceObject>
+    <sourceObjectType>MktDataConnection</sourceObjectType>
+    <templateVersion>2</templateVersion>
+</DataKitObjectTemplate>

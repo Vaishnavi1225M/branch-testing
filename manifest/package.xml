@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>sm_snowflake_test</members>
+        <name>DataKitObjectTemplate</name>
+    </types>
+    <types>
+        <members>Data_Kit_connection_dev</members>
+        <name>DataPackageKitDefinition</name>
+    </types>
+    <types>
+        <members>Data_Kit_connection_dev_1761117106561</members>
+        <name>DataPackageKitObject</name>
+    </types>
+    <version>65.0</version>
+</Package>
